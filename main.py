@@ -1,4 +1,9 @@
-what = input('давай пример (я тупой калькулятор): ')
+from colorama import init
+from colorama import Fore, Back, Style
+init()
+print (Fore.BLUE)
+
+what = input('давай задачу (я тупой калькулятор): ')
 
 a = float(input('ВНИМЕАНЕИ ПЕРВОЕ ЧИСЛО:'))
 b = float(input('второе число полегче давай:'))
